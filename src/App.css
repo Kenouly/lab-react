@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&display=swap');
+
+.App {
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.App-header {
+  background-color: rgb(19 30 41);
+  padding: 50px 100px;
+}
+
+.App-nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.App-logo {
+  width: 100px;
+}
+
+.App-menu-top {
+  width: 50px;
+}
+
+.App-intro {
+  padding: 100px 500px 100px 0px;
+}
+
+.App-intro h1 {
+  font-size: 8em;
+}
+
+.App-intro p {
+  font-size: 2em;
+}
+
+.App-intro button {
+  margin: 50px 0px;
+  padding: 30px 50px;
+  font-size: 2em;
+  font-weight: bolder;
+  border-radius: 15px;
+}
+
+.App-info-container {
+  padding: 200px 100px;
+  color: black;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+}
+
+.App-info-details {
+  width: 20%;
+}
+
+.App-info-details h3 {
+  font-size: 1.5em;
+}
+
+.App-info-details p {
+  color: grey;
+}
